@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Books</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-bos py-2 d-flex align-items-center  justify-content-between">
+        <div class="head-logo d-flex  align-items-center   ">
+          <img src="/icons/book-icon.svg" alt="book icon">
+          <span class="ms-2">Online</span><span class="d-inline-block   ">Book </span>
+        </div>
+        <nav>
+          <ul class="list-unstyled">
+            <li class="header-itms" > <a class="text-decoration-none text-dark" href="#">Home </a></li> 
+          </ul> 
+        </nav>
+        
+      </div>
+    </div>
+  </header> 
+  
+  <main>
+    <section class="form-section py-4">
+      <div class="container">
+        <form class="form" method="post" autocomplete="off" >
+
+          <div class="input-group mb-3">
+            <input type="text" class="form-control input-search  " placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            <button class="btn btn-outline-secondary  ms-2" type="submit" id="button-addon1">Find</button>
+          </div>
+          <select class="choose" name="select">
+            <option value="All">All </option>
+          </select>
+          <input class="choose-year"   name="year" aria-label="year sorch" placeholder="Year.."> 
+          
+          <select class="choose-sort" name="select" >
+            <option value="All">Sort by </option>
+            <option value="A-Z">A-Z </option>
+            <option value="Z-A">Z-A </option>
+
+          </select>
+        </form>
+
+      </div>
+      
+      
+      
+      
+    </section>
+    <section>
+      <div class="container">
+        <ul class=" list list-unstyled row mt-5 justify-content-center">
+        
+
+        </ul>
+      </div>
+    </section>
+    
+  </main>
+  
+
+  <template class="templat">
+    <li class="item-books col-12 col-md-6 col-lg-4 ms-4 mt-3">
+      <div class="d-flex justify-content-center align-items-center">
+
+        <img class="imgs" src="/images/a-la-recherche-du-temps-perdu.jpg" alt="books">
+      </div>
+        <h3 class="title mt-1"> </h3>
+        <h5 class="autor">   </h5>
+        <div class="d-flex  align-items-center">
+          <time class="time"> </time>
+          <span class=" page d-flex align-items-center me-4 "> 123</span>
+          <span class=" language d-flex align-items-center  "> portugal</span>
+        </div>
+        <div class="mt-2 d-flex">
+          <a class="wiki text-decoration-none d-flex   align-items-center" target="blank" href="undefine">Wikipediya  </a>
+          <span class="citi d-flex align-items-center"></span>
+        </div>
+    </li>
+  </template>
+  <!-- scripts -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/books.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+
+</html>

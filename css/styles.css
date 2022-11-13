@@ -1,0 +1,128 @@
+.d-inline-block{
+color: orange;
+}
+.form-section{
+ background-color: #F2E9D8;
+ }
+
+ .btn-outline-secondary{
+border-radius:30px !important; 
+padding: 0 35px !important;
+ }
+ .input-search{
+  border-radius: 20px !important;
+ }
+
+ .choose{
+ width: 180px;
+margin-right: 12px;
+ padding: 5px 5px;
+border-radius: 20px;
+border: none;
+
+ }
+ .choose-year{
+  width: 180px;
+  margin-right:12px;
+   padding: 5px 5px;
+   border: none;
+  border-radius: 20px;
+ }
+ .choose-sort{
+  width: 180px;
+  margin-right:12px;
+   padding: 5px 5px;
+   border: none;
+  border-radius: 20px;
+ }
+ .item-books{
+  width: 100%;
+  max-width: 280px;
+  padding:12px 15px 15px 15px  ;
+  border: 1px solid rgb(236, 191, 198);
+  border-radius: 20px;
+  box-shadow: 8px 14px #888888;
+ }
+ .item-books:hover{
+  box-shadow: 2px 3px #888888;
+
+ }
+ .imgs{
+  width: 210px;
+  height: 200px;
+ 
+ }
+ .title{
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+ }
+ .autor{
+display: flex;  
+ 
+align-items: center;
+ }
+ .autor::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/author.svg");
+ }
+ .time{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+ }
+ .time::before{
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/year.svg");
+ }
+ .page::before{
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/pages.svg");
+ }
+ .language::before{
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/language.svg");
+ }
+ .wiki{
+  margin-right: auto;
+ }
+ .wiki::before{
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/wiki-icon.svg");
+ }
+ .citi{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+ }
+ .citi::before{
+  content: "";
+  width: 15px;
+  height: 15px;
+   
+  margin-right: 5px;
+  display: block;
+  background-image: url("/icons/find-in-the-world-svgrepo-com.svg");
+ }
