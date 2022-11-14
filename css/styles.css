@@ -35,6 +35,13 @@ border: none;
    border: none;
   border-radius: 20px;
  }
+ .search-after{
+  width: 180px;
+  margin-right:12px;
+   padding: 5px 5px;
+   border: none;
+  border-radius: 20px;
+ }
  .item-books{
   width: 100%;
   max-width: 280px;

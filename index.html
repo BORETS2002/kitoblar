@@ -33,20 +33,23 @@
         <form class="form" method="post" autocomplete="off" >
 
           <div class="input-group mb-3">
-            <input type="text" class="form-control input-search  " placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+            <input type="text" class="form-control input-search  " placeholder="search book" aria-label="Example text with button addon" aria-describedby="button-addon1">
             <button class="btn btn-outline-secondary  ms-2" type="submit" id="button-addon1">Find</button>
           </div>
           <select class="choose" name="select">
             <option value="All">All </option>
           </select>
-          <input class="choose-year"   name="year" aria-label="year sorch" placeholder="Year.."> 
+          <input class="choose-year" type="number"   name="year" aria-label="year sorch" placeholder="Year.."> 
           
           <select class="choose-sort" name="select" >
             <option value="All">Sort by </option>
             <option value="A-Z">A-Z </option>
             <option value="Z-A">Z-A </option>
-
+            <option value="min-max">max pages - min pags  </option>
+            <option value="max-min">min pags -  </option>
           </select>
+
+          <input class="search-after" type="text" placeholder="search after" aria-label="Example text with button addon" >
         </form>
 
       </div>
