@@ -36,15 +36,17 @@ const geners = []
 
 books.forEach(itm => {
  
-      if (! geners.includes(itm.language)) {
+      // if (! geners.includes(itm.language)) {
         geners.push(itm.language)
-      }
+      // }
     
       
 })
 
+const netSet = new Set(geners)
+
 const selectQop = new DocumentFragment()
-geners.forEach(item => {
+netSet.forEach(item => {
   const Option = document.createElement("option");
 Option.value =item;
 Option.textContent = item;
